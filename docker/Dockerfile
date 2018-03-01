@@ -17,7 +17,6 @@ RUN pip --no-cache-dir install --no-dependencies "Theano==0.9.0"
 RUN pip --no-cache-dir install --no-dependencies "nltk==3.2.5"
 RUN pip --no-cache-dir install --no-dependencies "seaborn==0.8.1"
 RUN pip --no-cache-dir install "gensim==3.1.0"
-RUN pip --no-cache-dir install https://cntk.ai/PythonWheel/CPU-Only/cntk-2.2-cp27-cp27mu-linux_x86_64.whl
 RUN pip --no-cache-dir install "hyperopt==0.1"
 RUN pip --no-cache-dir install "pymc3==3.2"
 # quick test and dump package lists
