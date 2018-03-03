@@ -17,6 +17,9 @@ Please run the jupyter server with the script [run_book.sh](https://github.com/r
 
 <img src="jupyter.png" alt="jupyter home" data-canonical-src="jupyter.png" width="365" height="211" />
 
+<img src="simplest_model.png" alt="notebook" data-canonical-src="simplest_model.png" width="50%" height="50%" />
+
+
 # Which libraries contains the docker image?
 - Tensorflow [v1.5]
 - keras [v2.1.3]
