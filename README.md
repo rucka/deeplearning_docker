@@ -13,9 +13,11 @@ use:
 Each script check and ensure the docker image already exists.
 
 # Deep learning sample
-Please run the jupyter server with the script [run_book.sh](https://github.com/rucka/deeplearning_docker/blob/master/run_book.sh) and open and inspect the simplest_model.ipynb 
+Please run the jupyter server with the script [run_book.sh](https://github.com/rucka/deeplearning_docker/blob/master/run_book.sh) and open and try the simplest_model.ipynb 
 
-# Which libraries can I use from the container?
+<img src="jupyter.png" alt="jupyter home" data-canonical-src="jupyter.png" width="365" height="211" />
+
+# Which libraries contains the docker image?
 - Tensorflow [v1.5]
 - keras [v2.1.3]
 - Theano [v0.9.0]
