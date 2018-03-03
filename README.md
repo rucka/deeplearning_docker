@@ -2,7 +2,7 @@
 An image to bootstrap the developement of neural networks with Keras and TensorFlow, nltk or Theano
 
 # How to build the image
-In order to build the image you can lunch the script [docker-build.sh](https://github.com/rucka/deeplearning_docker/blob/master/docker-build.sh). You can customize the name of the image [docker/IMAGE](https://github.com/rucka/deeplearning_docker/blob/master/docker/IMAGE)
+In order to build the image you can run the script [docker-build.sh](https://github.com/rucka/deeplearning_docker/blob/master/docker-build.sh). You can customize the name of the image [docker/IMAGE](https://github.com/rucka/deeplearning_docker/blob/master/docker/IMAGE)
 
 # Available scripts
 - [exec_cmd.sh](https://github.com/rucka/deeplearning_docker/blob/master/exec_cmd.sh) you can run a command inside the container e.g. `./exec_cmd.sh python hello.py` 
