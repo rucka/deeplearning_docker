@@ -5,10 +5,11 @@ An image to bootstrap the developement of neural networks with Keras and TensorF
 In order to build the image you can run the script [docker-build.sh](https://github.com/rucka/deeplearning_docker/blob/master/docker-build.sh). You can customize the name of the image [docker/IMAGE](https://github.com/rucka/deeplearning_docker/blob/master/docker/IMAGE)
 
 # Available scripts
-- [exec_cmd.sh](https://github.com/rucka/deeplearning_docker/blob/master/exec_cmd.sh) you can run a command inside the container e.g. `./exec_cmd.sh python hello.py` 
-- [run_book.sh](https://github.com/rucka/deeplearning_docker/blob/master/run_book.sh) run a jupter notebook so you can write and test your code from your browser at http://localhost:8888. If you don't know jupyter, please take a look at the [official documentation](https://jupyter-notebook.readthedocs.io/en/stable/).
-- [run_board.sh](https://github.com/rucka/deeplearning_docker/blob/master/run_board.sh) run the tensorflow board and connect to it from the browser at http://localhost:6006
-- [run_shell.sh](https://github.com/rucka/deeplearning_docker/blob/master/run_shell.sh) open a container shell
+use:
+- [exec_cmd.sh](https://github.com/rucka/deeplearning_docker/blob/master/exec_cmd.sh) to run a command inside the container e.g. `./exec_cmd.sh python hello.py` 
+- [run_book.sh](https://github.com/rucka/deeplearning_docker/blob/master/run_book.sh) to run a jupter notebook so you can write and test your code from your browser at http://localhost:8888. If you don't know jupyter, please take a look at the [official documentation](https://jupyter-notebook.readthedocs.io/en/stable/).
+- [run_board.sh](https://github.com/rucka/deeplearning_docker/blob/master/run_board.sh) to run the tensorflow board and connect to it from the browser at http://localhost:6006
+- [run_shell.sh](https://github.com/rucka/deeplearning_docker/blob/master/run_shell.sh) to open a container shell session 
 Each script check and ensure the docker image already exists.
 
 # Deep learning sample
